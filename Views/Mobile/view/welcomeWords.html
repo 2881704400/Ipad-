@@ -1,0 +1,101 @@
+﻿
+    <div data-page="welcomeWords" class="page" id="welcomeWords">
+<div class="navbar">
+    <div class="navbar-inner">
+          <div class="left"><a href="#" class="back"><i class="iconfont icon-back"></i>返回</a></div>
+        <div class="center sliding title">欢迎词</div>
+        <div class="right">    <a href="#"  onclick="Ipadvoice()"><img src="/Image/phone/voiceIpad.png" alt="back" style="width: auto;height: 30px;margin-top: 7px;"></a></div>
+    </div>
+</div>      
+        <div class="page-content tabs-animated-wrap welcomeContent">
+             <div class="">
+               <div class="welcomeHeader"><span style="font-size: 20px;font-family:'宋体';"></span></div>
+
+                <span style="display: inline-block;opacity: 0;filter:alpha(opacity=0);position: absolute;font-size: 1rem;" id="widthIn"></span>
+
+               <div class="row saveWords" style="margin: 20px 0;">
+                 <textarea placeholder="请输入欢迎词" value="" class="col-90 publicInput welcomeInput" style="height: 3rem;padding: 0.7rem 0;text-align: left;" oninput=" widthIn(this)"></textarea>
+                 <a href="#" class="col-10" style="height: 3rem;line-height: 3rem;"  set_no="67" set_equip="10001" id="viewsSave">预览</a>
+               </div>
+
+               <div class="row" >
+                 <div class="setStyle row col-60">
+
+          <div class="col-30" style="text-align: left">大小 <input type="number" value="20"  class="canvasFont publicInput welcomeFont" oninput="fontIn(this)"/></div>
+                   <div class="col-33 fontBackground">
+                              <span>字体 </span>
+                               <select class="publicInput" style="width: 60%;" id="fontFamily">
+                                   <option sselected="selected" data-font="Microsoft JhengHei">微软雅黑</option>
+                                   <option data-font="SimSun">宋体</option>
+                                   <option data-font="SimHei">黑体</option>
+                                   <option data-font="Microsoft JhengHei">微软正黑体</option>
+                                   <option data-font="NSimSun">新宋体</option>
+                                   <option data-font="PMingLiU">新细明体</option>
+                                   <option data-font="MingLiU">细明体</option>
+                                   <option data-font="DFKai-SB">标楷体</option>
+                                   <option data-font="FangSong">仿宋</option>
+                                   <option data-font="KaiTi">楷体</option>
+                                   <option data-font="FangSong_GB2312">仿宋_GB2312</option>
+                                   <option data-font="KaiTi_GB2312">楷体_GB2312</option>
+                                   <option data-font="fantasy">fantasy</option>
+                                   <option data-font="monospace">monospace</option>
+                                   <option data-font="LiHei Pro Medium">LiHei Pro Medium</option>
+                                   <option data-font="cursive">cursive</option>
+                               </select>
+                    </div>
+                    <div class="setStyle_color col-15" style=" padding: 0px 4%;">
+                             <div class="item-content">
+                              <div class="item-inner row">
+               <!--                  <div class="item-title label">颜色&nbsp;</div> -->
+                                <div class="item-input">
+                                  <a href="#" class="activeSkin"></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div id="colorSkin" class="displayNone">
+                              <div class="row" >
+                                <a href="#" class="col-33" ><i></i></a>
+                                <a href="#" class="col-33" ><i></i></a>
+                                <a href="#" class="col-33" ><i></i></a>
+                                <a href="#" class="col-33" ><i></i></a>
+                                <a href="#" class="col-33" ><i></i></a>
+                                <a href="#" class="col-33" ><i></i></a>
+                                <a href="#" class="col-33" ><i></i></a>
+                                <a href="#" class="col-33" ><i></i></a>
+                                <a href="#" class="col-33" ><i></i></a>
+                            </div>
+                          </div>
+                    </div>
+
+                    <div class="col-15"><a href="#" class="iconfont icon-bgy15 fontStyle"></a></div>
+                    <div class="col-15"><a href="#" class="iconfont icon-bgy14 fontStyle"></a></div>
+
+                 </div>
+                 <div class="textStyle row col-30 p-ellipsis">
+                    <div class="col-50">左距 <input type="number" value="0"  class="canvasLeft publicInput"  oninput="leftIn(this)"/></div>
+                    <div class="col-50">顶距 <input type="number" value="0"  class="canvasTop publicInput"  oninput="topIn(this)"/></div>
+                 </div>
+
+                  <div class="col-10  saveWords textStyle"><a href="#" id="saveWord">保存</a></div>
+
+              </div>
+
+
+
+
+             </div>
+              <div class="wecomeButtom">
+                   <h3  >背景选择</h3>
+                      <div class="swiper-container swiper-3">
+                        <div class="swiper-wrapper setBackground">
+                         
+
+                        </div>
+                      </div>
+             </div>
+
+            <!-- 欢迎词关闭 -->
+            <a href="#" class="weicomeClose" set_no="100" set_equip="11001">关闭</a>
+
+        </div>
+    </div>

@@ -1,0 +1,87 @@
+
+    <div data-page="trailer" class="page" id="trailer">
+<div class="navbar">
+    <div class="navbar-inner">
+        <div class="left"> <a href id="back1"><i class="iconfont icon-back"></i>返回</a></div>
+        <div class="center sliding title">宣传片</div>
+        <div class="right"><a href="#" onclick="Ipadvoice()"><img src="/Image/phone/voiceIpad.png" alt="back" style="width: auto;height: 30px;margin-top: 7px;"></a></div>
+    </div>
+</div>      
+        <div class="page-content">
+             
+          <div class="trailerContainer">
+                  <div class="swiper-containerTrailer">
+                    <div class="swiper-wrapper">
+                    </div>
+                    <div class="swiper-paginationTrailer"></div>
+                  </div>
+             </div>
+             
+             <ol class="row trailerFooter">
+                <li class="col-10 trailerFooter1">
+                    <a href="#" set_no="11" set_equip="9999" class="trailerPlay"><img src="/Image/trailer/trailer_play.png"></a>
+                    <a href="#" set_no="11" set_equip="9999" class="displayNone"><img src="/Image/trailer/trailer_play1.png" ></a>
+                 <p>播放</p>
+                </li>
+                <li class="col-10 trailerFooter1">
+                    <a href="#" set_no="12" set_equip="9999" class="trailerStop"><img src="/Image/trailer/trailer_stop.png"></a>
+                    <a href="#" set_no="12" set_equip="9999" class="displayNone"><img src="/Image/trailer/trailer_stop1.png" ></a>
+                 <p>暂停</p>
+                </li>
+                <li class="col-10 trailerFooter1">
+                    <a href="#"  class="trailerBack"><img src="/Image/trailer/backTrail.png"></a>
+                    <a href="#"  class="displayNone"><img src="/Image/trailer/backTrail1.png" ></a>
+                 <p>慢播</p>
+                </li>
+                <li class="col-10 trailerFooter1">
+                    <a href="#"  class="trailerForwad"><img src="/Image/trailer/forwardTrail.png"></a>
+                    <a href="#"  class="displayNone"><img src="/Image/trailer/forwardTrail1.png" ></a>
+                 <p>快播</p>
+                </li>                                
+                <li class="col-10 trailerFooter1">
+                    <a href="#" set_no="13" set_equip="9999" class="trailerClose"><img src="/Image/trailer/trailer_tz.png"></a>
+                    <a href="#" set_no="13" set_equip="9999" class="displayNone"><img src="/Image/trailer/trailer_tz1.png" ></a>
+                 <p>停止</p>
+                </li>
+                <li class="col-10 trailerFooter1">
+                    <a href="#" set_no="16" set_equip="9999" class="trailerCloseAll" id="closeVoidetrailer"><img src="/Image/trailer/trailer_close.png"></a>
+                    <a href="#" set_no="16" set_equip="9999" class="displayNone"><img src="/Image/trailer/trailer_close1.png" ></a>
+                 <p>关闭</p>
+                </li>
+                <li class="col-10 trailerFooter1">
+                   <a href="#" set_no="73" set_equip="10001" class="requestTrailer"><img src="/Image/trailer/vedioCenter.png"></a>
+                   <a href="#" set_no="73" set_equip="10001" class="displayNone"><img src="/Image/trailer/vedioCenter1.png"></a>
+                   <p>居中</p>
+                </li>
+                <li class="col-10 trailerFooter1">
+                   <a href="#" set_no="74" set_equip="10001" class="requestTrailer"><img src="/Image/trailer/vedioAll.png"></a>
+                   <a href="#" set_no="74" set_equip="10001" class="displayNone"><img src="/Image/trailer/vedioAll1.png"></a>
+                   <p>全屏</p>
+                </li>
+                <li class="col-25 trailerFooter2" style="    padding-top: 5px;">
+                    <a href="#" set_no="14" set_equip="9999" class="trailerleft"></a>
+                    <a href="#" set_no="15" set_equip="9999" class="trailerright"></a>
+                    <img src="/Image/trailer/trailer_left.png" class="displayNone" id="trailerImg1" />
+                    <img src="/Image/trailer/trailer_center.png" class="" id="trailerImg2" />
+                    <img src="/Image/trailer/trailer_right.png" class="displayNone" id="trailerImg3" />
+                </li>
+             </ol>
+             <!-- 进度条 -->
+            <div class="conference-volume">
+              <div class="item-content IntelligenceDG-content">
+                  <output id="outputValue"></output>
+                  <div class="audioSet">
+                    <!-- 静音 -->
+                     <span><b class="startTime1">00</b><b>:</b><b class="startTime2">00</b><b>:</b><b class="startTime3">00</b></span>
+                    <!-- 滚动条 -->
+                    <input type="range" class="" set_no="33" set_equip="11001" min="0" max="100" value="0" step="1" id="IntelligenceRange" oninput="changeInput(this)">
+                    <!-- 取消静音 -->
+                    <b class="endTime">00:00:00</b>
+                    <div class="backgroundRange"></div>
+                  </div>
+              </div>
+            </div>
+
+            <span class="tooipSpan displayNone viceSpan" style="top: 100px;">正在执行，请稍后...</span>
+        </div>
+    </div>

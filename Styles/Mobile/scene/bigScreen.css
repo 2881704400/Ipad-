@@ -1,0 +1,229 @@
+.mianDivScreen {
+	width: 96%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.headerDivScreen {
+	width: 100%;
+	height: 11%;
+	animation: bounceInDown 2s;
+}
+
+.headerDivScreenIcon {
+	width: 14%;
+	height: 100%;
+	text-align: center;
+}
+
+.headerDivScreenIcon i {
+	color: #33CABD;
+	font-size: 2rem;
+}
+
+.headerDivScreenLabel {
+	width: 80%;
+	height: 100%;
+	text-align: left;
+}
+
+.headerDivScreenLabel label {
+	color: #33CABD;
+	font-size: 1rem;
+}
+
+.contentDivScreen {
+	width: 100%;
+	height: 80%;
+	background-color: #151F2B;
+	-moz-box-shadow: 0 0 2px #263240;
+	-webkit-box-shadow: 0 0 2px #263240;
+	box-shadow: 0 0 2px #263240;
+}
+
+.contentDivScreenUl {
+	width: 98%;
+	height: 96%;
+	position: relative;
+	top: 2%;
+	left: 3%;
+	background-color: #151F2B;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+	overflow-y: scroll;
+	animation: bounceInUp 2s;
+}
+
+.contentDivScreenUl ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+
+	height: 100%;
+}
+
+.contentDivScreenUl ul li {
+	width: 100%;
+	height: 2.5rem;
+	margin-bottom: 0.2rem;
+	background-color: #263240;
+	-moz-box-shadow: inset 0 0 1px #283140;
+	-webkit-box-shadow: inset 0 0 1px #283140;
+	box-shadow: inset 0 0 1px #283140;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+}
+
+.contentDivScreenUl ul li a {
+	height: 100%;
+	line-height: 2.5rem;
+	text-decoration: none;
+	display: block;
+	position: relative;
+
+	padding-left: 10%;
+	color: #33CABD;
+	font-size: 0.9rem;
+}
+
+.footDivScreen {
+	width: 100%;
+	height: 24%;
+}
+
+.footDivScreenleft {
+	width: 50%;
+	height: 100%;
+	animation: bounceInLeft 2s;
+}
+
+.footDivScreenleftIcon {
+	width: 100%;
+	height: 70%;
+	text-align: center;
+}
+
+.footDivScreenleftIcon i {
+	color: #33CABD;
+	font-size: 4rem;
+}
+
+.footDivScreenleftLabel {
+	width: 100%;
+	height: 30%;
+}
+
+.footDivScreenleftLabel label {
+	color: #33CABD;
+	font-size: 1rem;
+}
+
+
+/*---------iPad端样式开始----------*/
+
+.headerDivScreenIconIpad {
+	width: 5%;
+	height: 100%;
+}
+
+.headerDivScreenIconIpad i {
+	color: #33CABD;
+	font-size: 2.2rem;
+}
+
+.headerDivScreenLabelIpad {
+	width: 80%;
+	height: 100%;
+}
+
+.headerDivScreenLabelIpad label {
+	color: #33CABD;
+	font-size: 1.1rem;
+}
+
+.contentDivScreenUlIpad {
+	width: 98%;
+	height: 96%;
+	position: relative;
+	top: 2%;
+	left: 1%;
+	background-color: #151F2B;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+	overflow-y: scroll;
+	animation: bounceInUp 2s;
+}
+
+.contentDivScreenUlIpad ul {
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+	height: 100%;
+}
+
+.contentDivScreenUlIpad ul li {
+	width: 100%;
+	height: 3rem;
+	margin-bottom: 0.15rem;
+	background-color: #263240;
+	-moz-box-shadow: inset 0 0 1px #283140;
+	-webkit-box-shadow: inset 0 0 1px #283140;
+	box-shadow: inset 0 0 1px #283140;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	border-radius: 1px;
+}
+
+.contentDivScreenUlIpad ul li a {
+	height: 100%;
+	line-height: 3rem;
+	text-decoration: none;
+	display: block;
+	position: relative;
+	padding-left: 5%;
+	color: #33CABD;
+	font-size: 1rem;
+}
+
+.footDivScreenleftIconIpad,
+.footDivScreenRightIconIpad {
+	width: 100%;
+	height: 70%;
+}
+
+.footDivScreenleftIconPic,
+.footDivScreenRightIconPic {
+	width: 5.6rem;
+	height: 5.6rem;
+	margin: auto;
+	border-radius: 50%;
+	text-align: center;
+	background-image: url(/Image/scene/circle_up.png);
+	background-position: 0% 0%;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+.footDivScreenleftIconPic i {
+	color: #33CABD;
+	font-size: 3rem;
+}
+
+.footDivScreenRightIconPic i {
+	color: #B7424E;
+	font-size: 3rem;
+}
+
+
+/*---------iPad端样式结束----------*/
+
+
+/*定义滚动条高宽及背景 高宽分别对应横竖滚动条的尺寸*/
+
+::-webkit-scrollbar {
+	width: 0px;
+	height: 0px;
+}

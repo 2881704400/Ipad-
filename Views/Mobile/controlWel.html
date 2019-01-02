@@ -1,0 +1,99 @@
+﻿<div class="page controlWel" data-page="controlWel" id="controlWel">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <!-- 标题 -->
+            <div class="left">
+                <a class="iconfont icon-indexExit" href="#" id="exitOut" onclick="onUserLogout()" style="color: #ccc;">
+                    注销
+                </a>
+            </div>
+            <div class="center sliding title">
+                欢迎词
+            </div>
+            <div class="right">
+                <a href="#" onclick="Ipadvoice()">
+                    <img alt="back" src="/Image/phone/voiceIpad.png" style="width: auto;height: 30px;margin-top: 7px;"/>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="RecordContainer row">
+          <ul class="leftPoto col-30">
+            
+          </ul>
+          <div class="rightEdit col-70">
+            <nav class="row  attrbuteSet">
+               <div class="col-35 row fontSet">
+                  <div class="iconfont rightBottonIcon col-60">
+                    <select  id="fontFamily">
+                       <option sselected="selected" data-font="Microsoft JhengHei">微软雅黑</option>
+                       <option data-font="SimSun">宋体</option>
+                       <option data-font="SimHei">黑体</option>
+                       <option data-font="Microsoft JhengHei">微软正黑体</option>
+                       <option data-font="NSimSun">新宋体</option>
+                       <option data-font="PMingLiU">新细明体</option>
+                       <option data-font="MingLiU">细明体</option>
+                       <option data-font="DFKai-SB">标楷体</option>
+                       <option data-font="FangSong">仿宋</option>
+                       <option data-font="KaiTi">楷体</option>
+                       <option data-font="FangSong_GB2312">仿宋_GB2312</option>
+                       <option data-font="KaiTi_GB2312">楷体_GB2312</option>
+                       <option data-font="fantasy">fantasy</option>
+                       <option data-font="monospace">monospace</option>
+                       <option data-font="LiHei Pro Medium">LiHei Pro Medium</option>
+                       <option data-font="cursive">cursive</option>
+                    </select>                 
+                  </div>
+                  <div class="iconfont rightBottonIcon col-30"><input type="number" value="50" class="fontSize" oninput=""></div>   
+                  <div class="col-10"></div>
+               </div>
+               <div class="col-25 row boldSet">
+                    <div class="col-30"><a href="#" class="iconfont icon-bold fontStyle"></a></div>
+                    <div class="col-30"><a href="#" class="iconfont icon-ital fontStyle"></a></div>  
+                    <div class="setStyle_color col-30" style=" padding: 0px 4%;">
+                             <div class="item-content">
+                              <div class="item-inner row">
+                                <div class="item-input">
+                                  <a href="#" class="activeSkin"></a>
+                                </div>
+                              </div>
+                            </div>
+                            <div id="colorSkin" class="displayNone">
+                              <div class="row">
+                                <a href="#" class="col-33"><i></i></a>
+                                <a href="#" class="col-33"><i></i></a>
+                                <a href="#" class="col-33"><i></i></a>
+                                <a href="#" class="col-33"><i></i></a>
+                                <a href="#" class="col-33"><i></i></a>
+                                <a href="#" class="col-33"><i></i></a>
+                                <a href="#" class="col-33"><i></i></a>
+                                <a href="#" class="col-33"><i></i></a>
+                                <a href="#" class="col-33"><i></i></a>
+                            </div>
+                          </div>
+                    </div>   
+                    <div class="col-10"></div>            
+               </div>
+               <div class="col-40 row no-gap">
+                <div class="col-75 row horizontalSet">
+                  <div class="col-25"><a href="#" class="iconfont icon-fontLeft fontStyle"></a></div>
+                  <div class="col-25"><a href="#" class="iconfont icon-fontCenter fontStyle"></a></div>
+                  <div class="col-25"><a href="#" class="iconfont icon-fontRight fontStyle"></a></div>
+                </div>
+                <div class="col-25 verticalSet"><a href="#" class="iconfont icon-fontRepeat fontStyle"></a></div>
+               </div>
+            </nav>
+            <section>
+              <textarea placeholder="编辑欢迎词....." value="" class="publicInput welcomeInput" style="" oninput=""></textarea>
+            </section>
+            <footer  class="row">
+              <input type="button" class="button col-30" value="关闭" onclick="closeWel(this)"/>
+              <input type="button" class="button col-30" value="保存" onclick="saveWel(this,0)"/>
+              <input type="button" class="button col-30" id="viewsSave" value="预览" onclick="viewWel(this)"/>
+            </footer>
+          </div>
+
+        </div>
+    </div>
+</div>

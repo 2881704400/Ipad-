@@ -1,0 +1,310 @@
+.mainDivIntell {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+.headerDivIntell {
+	width: 100%;
+	height: 45%;
+	margin: 0 auto;
+}
+
+.headerContentIntell {
+	width: 90%;
+	height: 100%;
+	margin: 0px auto;
+}
+
+.headerContentIntellleft {
+	width: 32%;
+	height: 100%;
+	animation: rotateInDownLeft 2s ; 
+}
+
+.headerContentIntellcenter {
+	width: 32%;
+	height: 100%;
+	margin-left: 2%;
+	animation: bounceInDown 2s ; 
+}
+
+.headerContentIntellright {
+	width: 32%;
+	height: 100%;
+	animation: rotateInDownRight 2s ; 
+}
+
+.huiyiDiv {
+	width: 100%;
+	height: 60%;
+	border: 1px solid #33CABD;
+	position: relative;
+	top: 30%;
+	border-radius: 0.8rem;
+}
+
+.huiyiDivIcon {
+	width: 100%;
+	height: 73.5%;
+	text-align: center;
+	border-bottom: 1px solid #33CABD;
+}
+
+.huiyiDivIcon i {
+	color: #33CABD;
+	font-size: 3.6rem;
+}
+
+.huiyiDivContent {
+	width: 100%;
+	height: 26.5%;
+	border-bottom-left-radius: 0.8rem;
+	border-bottom-right-radius: 0.8rem;
+	background-color: #263240;
+	text-align: center;
+}
+
+.huiyiDivContent label {
+	color: #33CABD;
+	font-size: 1rem;
+}
+
+.contentDivIntell {
+	width: 90%;
+	height: 35%;
+	margin-top: 5%;
+	margin: auto;
+}
+
+.contentDivIntellleft {
+	width: 32%;
+	height: 100%;
+	animation: bounceInLeft 2s ; 
+}
+
+.contentDivIntellcenter {
+	width: 32%;
+	height: 100%;
+	margin-left: 2%;
+	animation: zoomInDown 2s ; 
+}
+
+.contentDivIntellright {
+	width: 32%;
+	height: 100%;
+	animation: bounceInRight 2s ; 
+}
+
+.contentDivIcon {
+	width: 100%;
+	height: 60%;
+	text-align: center;
+}
+
+.contentDivIcon i {
+	color: #33CABD;
+	font-size: 4.2rem;
+}
+
+.contentDivLabel {
+	width: 100%;
+	height: 26.5%;
+	text-align: center;
+}
+
+.contentDivLabel label {
+	color: #33CABD;
+	font-size: 1rem;
+	animation: zoomInRight 2s ;  
+}
+
+.footerDivIntell {
+	width: 90%;
+	height: 15%;
+	margin: 0 auto;
+}
+
+.footerDivIntellleft {
+	width: 15%;
+	height: 100%;
+	animation: rotateInDownLeft 2s ; 
+}
+
+.footerDivIntellcontent {
+	width: 70%;
+	height: 100%;
+	animation: rotateIn 2s ;
+}
+
+.footerDivIntellright {
+	width: 15%;
+	height: 100%;
+	animation: rotateInDownRight 2s ; 
+}
+
+.footerDivIntellleft i,
+.footerDivIntellright i {
+	color: #33CABD;
+	font-size: 2.2rem;
+	position: relative;
+	top: 20%;
+	left: 20%;
+}
+
+.scrollDiv {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+	top: 44%;
+}
+
+
+/*---------iPad端样式开始----------*/
+.headerDivIntellIpad {
+	width: 100%;
+	height: 38%;
+	margin: 0 auto;
+}
+.headerContentIntellIpad {
+	width: 90%;
+	height: 100%;
+	margin: 0px auto;
+}
+
+.headerContentIntellIpadleft {
+	width: 25%;
+	height: 100%;
+	animation: rotateInDownLeft 2s ; 
+/*	margin: 0 12.5%;*/
+}
+
+.headerContentIntellIpadcenter {
+	width: 25%;
+	height: 100%;
+	margin-left: 12.5%;
+	animation: bounceInDown 2s ; 
+/*	margin: 0 12.5%;*/
+}
+
+.headerContentIntellIpadright {
+	width: 25%;
+	height: 100%;
+	animation: rotateInDownRight 2s ; 
+}
+.huiyiDivIconIpad {
+	width: 100%;
+	height: 73.5%;
+	text-align: center;
+	border-bottom: 1px solid #33CABD;
+}
+
+.huiyiDivIconIpad i {
+	color: #33CABD;
+	font-size: 5rem;
+}
+
+.huiyiDivContentIpad {
+	width: 100%;
+	height: 26.5%;
+	border-bottom-left-radius: 0.8rem;
+	border-bottom-right-radius: 0.8rem;
+	background-color: #2A323F;
+	text-align: center;
+}
+
+.huiyiDivContentIpad label {
+	color: #33CABD;
+	font-size: 1.2rem;
+	font-weight: 600;
+}
+
+.contentDivIntellIpad {
+	width: 90%;
+	height: 22%;
+	margin: auto;
+	margin-top: 5%;
+}
+.contentDivIntellleftIpad {
+	width: 25%;
+	height: 100%;
+	border: 1px solid #33CABD;
+	border-radius: 0.8rem;
+	background-color: #2A323F;
+	animation: bounceInLeft 2s ; 
+}
+
+.contentDivIntellcenterIpad {
+	width: 25%;
+	height: 100%;
+	margin-left: 18%;
+	border: 1px solid #33CABD;
+	border-radius: 0.8rem;
+	background-color: #2A323F;
+	animation: zoomInDown 2s ; 
+}
+
+.contentDivIntellrightIpad {
+	width: 25%;
+	height: 100%;
+	margin-right: 18%;
+	border: 1px solid #33CABD;
+	border-radius: 0.8rem;
+	background-color: #2A323F;
+	animation: bounceInRight 2s ; 
+}
+
+.contentDivIconIpad {
+	width: 100%;
+	height: 73.5%;
+	text-align: center;
+}
+
+.contentDivIconIpad i {
+	color: #33CABD;
+	font-size: 5rem;
+}
+
+.contentDivLabelIpad {
+	width: 100%;
+	height: 26.5%;
+	text-align: center;
+}
+
+.contentDivLabelIpad label {
+	color: #33CABD;
+	font-size: 1.2rem;
+	animation: zoomInRight 2s ;  
+}
+
+.footerDivIntellIpad {
+	width: 90%;
+	height: 15%;
+	margin: 0 auto;
+	margin-top: 5%;
+}
+
+.footerDivIntellleftIpad {
+	width: 15%;
+	height: 100%;
+	text-align: center;
+	animation: rotateInDownLeft 2s ; 
+}
+
+.footerDivIntellrightIpad {
+	width: 15%;
+	height: 100%;
+	text-align: center;
+	animation: rotateInDownRight 2s ; 
+}
+
+.footerDivIntellleftIpad i,
+.footerDivIntellrightIpad i {
+	color: #33CABD;
+	font-size: 2.2rem;
+	/*position: relative;
+	top: 20%;
+	left: 20%;*/
+}
+/*---------iPad端样式结束----------*/

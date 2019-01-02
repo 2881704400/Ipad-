@@ -1,0 +1,139 @@
+﻿<div class="page controlEquip" data-page="controlEquip" id="controlEquip">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <!-- 标题 -->
+            <div class="left">
+                <a class="iconfont icon-indexExit" href="#" id="exitOut" onclick="onUserLogout()" style="color: #ccc;">
+                    注销
+                </a>
+            </div>
+            <div class="center sliding title">
+               空调设备控制
+            </div>
+            <div class="right">
+                <a href="#" onclick="Ipadvoice()">
+                    <img alt="back" src="/Image/phone/voiceIpad.png" style="width: auto;height: 30px;margin-top: 7px;"/>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="page-content">
+        <div class="RecordContainer row" style="padding: 0;">
+            <section class="leftEquipMenu col-25">
+                <header><i class="iconfont icon-navigation"></i>空调设备</header>
+                <dl class="equipMenuList">
+<!--                     <dt><a href="#" class="equipClickbtn selectedYellowBg">
+                        <img src="/Image/context/page3_menu_0.png" alt="" class="iconbefore" />
+                        一层
+                        <i class="iconfont icon-directionDown iconafter"></i>
+                    </a></dt> -->
+                    <dd style="display: block;" class="setEquipNumber">
+                                              
+                    </dd>
+<!--                     <dt><a href="#" class="equipClickbtn">
+                        <img src="/Image/context/page3_menu_0.png" alt="" class="iconbefore" />
+                        二层<i class="iconfont icon-directionLeft iconafter"></i>
+                    </a></dt>
+                    <dd>
+                        <a href="#">1号机</a>
+                        <a href="#">1号机</a>
+                        <a href="#">1号机</a>
+                        <a href="#">1号机</a>
+                    </dd>   -->                  
+                </dl>
+            </section>
+            <section class="rightEquipView col-75 row">
+                <div class="equipSetValue col-55">
+                    <div class="equipSetTop" id="equipSetTop">
+                        <p>设定温度</p>
+                    </div>
+                    <div class="equipSetBottom">
+                        <ul class="row no-gap">
+                            <li class="col-25">
+                                <a href="#" style="border-radius: 50px 0px 0px 50px;"><label>16</label><sup>°C</sup></a>
+                                <!-- <a href="#" set_no="" set_equip="" onclick="clickMenu(this)">
+                                    <img src="/Image/context/page3_kt_g_0.png">
+                                </a>
+                                <a href="#" set_no="" set_equip="" class="displayNone">
+                                    <img src="/Image/context/page3_kt_g_1.png">
+                                </a> -->
+                            </li>
+                             <li class="col-25">
+                                <a href="#"><label>20</label><sup>°C</sup></a>
+                               <!--  <a href="#" set_no="" set_equip="" onclick="clickMenu(this)">
+                                    <img src="/Image/context/page3_kt_z_0.png">
+                                </a>
+                                <a href="#" set_no="" set_equip="" class="displayNone">
+                                    <img src="/Image/context/page3_kt_z_1.png">
+                                </a> -->
+                            </li>
+                            <li class="col-25">
+                                <a href="#"><label>25</label><sup>°C</sup></a>
+                                <!-- <a href="#" set_no="" set_equip="" onclick="clickMenu(this)">
+                                    <img src="/Image/context/page3_kt_d_0.png">
+                                </a>
+                                <a href="#" set_no="" set_equip="" class="displayNone">
+                                    <img src="/Image/context/page3_kt_d_1.png">
+                                </a> -->
+                            </li>
+                            <li class="col-25">
+                                <a href="#" style="border-radius: 0px 50px 50px 0;"><label>28</label><sup>°C</sup></a>
+                               <!--  <a href="#" set_no="" set_equip="" onclick="clickMenu(this)">
+                                    <img src="/Image/context/page3_kt_zd_0.png">
+                                </a>
+                                <a href="#" set_no="" set_equip="" class="displayNone">
+                                    <img src="/Image/context/page3_kt_zd_1.png">
+                                </a> -->
+                            </li>
+                        </ul>
+                        <p>快捷温度设置</p>
+                    </div>
+                </div>
+                <div class="equipViewValue col-45">
+                    <div class="equipViewTop">
+                        <h1>26<sup>°C</sup></h1>
+                        <p>室内温度</p>
+                    </div>
+                    <div class="equipViewCenter">
+                         <div class="headerDivAirIpadRight fright">
+                            <label class="sceneButton">
+                                <input type="checkbox" id="mycheckbox" name="box" checked="checked">
+                                <span class="divblok" id="divBlokBtn" draggable="true" set_no="2" style="left: 50%;"></span>
+                            </label>
+                        </div>   
+                        <p style="margin-top: 12%;">开关</p>                   
+                    </div>
+<!--                     <div class="equipViewBotton">
+                        <ul class="row no-gap">
+                            <li class="col-33">
+                                <a href="#" set_no="" set_equip="" onclick="clickMenu(this)">
+                                    <img src="/Image/context/page3_kt_zl_0.png">
+                                </a>
+                                <a href="#" set_no="" set_equip="" class="displayNone">
+                                    <img src="/Image/context/page3_kt_zl_1.png">
+                                </a>
+                            </li>
+                                                        <li class="col-33">
+                                <a href="#" set_no="" set_equip="" onclick="clickMenu(this)">
+                                    <img src="/Image/context/page3_kt_sf_0.png">
+                                </a>
+                                <a href="#" set_no="" set_equip="" class="displayNone">
+                                    <img src="/Image/context/page3_kt_sf_1.png">
+                                </a>
+                            </li>
+                                                        <li class="col-33">
+                                <a href="#" set_no="" set_equip="" onclick="clickMenu(this)">
+                                    <img src="/Image/context/page3_kt_zr_0.png">
+                                </a>
+                                <a href="#" set_no="" set_equip="" class="displayNone">
+                                    <img src="/Image/context/page3_kt_zr_1.png">
+                                </a>
+                            </li>
+                         </ul>
+                         <p>模式</p>                        
+                    </div>   -->                 
+                </div>
+            </section>
+        </div>
+    </div>
+</div>

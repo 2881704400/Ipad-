@@ -1,0 +1,86 @@
+
+			
+			.wheel-button:hover {
+				color: white;
+			}
+			
+			.wheel-button.ne {
+				border-color: #334458;
+				background: #334458;
+				color: #C3C5C4;
+				position: absolute;
+				bottom: 10px;
+				left: 10px;
+			}
+			
+
+			
+			.wheel-button span,
+			.wheel span {
+				width: 100%;
+                height: 100%;
+				position: relative;
+				-moz-transition: all 1s ease;
+				-webkit-transition: all 1s ease;
+				-o-transition: all 1s ease;
+				transition: all 1s ease;
+				display: block;
+				position: absolute;
+			    top: 50%;
+			    left: 50%;
+			    transform: translate(-50%,-50%);
+			}
+			
+			.wheel-button.active span {transform:translate(-50%,-50%) rotate(135deg);}
+			.wheel li a,
+			.wheel li a:visited {
+
+				font-weight: bold;
+				
+				text-align: center;
+				width: 100px;
+				color:#49AEAB;
+				/*border: 1px solid black;
+				box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.5);
+				-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.5);
+				-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25), inset 0 1px 1px rgba(255, 255, 255, 0.5);*/
+				font-size: 1rem;
+				-moz-transition: all 0.25s ease;
+				-webkit-transition: all 0.25s ease;
+				-o-transition: all 0.25s ease;
+				transition: all 0.25s ease;
+			}
+			.wheel li i{
+				font-size: 2rem;
+			}
+			
+			.wheel li a:hover {
+			
+			
+			}
+			
+			.wheel-button {
+				position: relative;
+			}
+			
+			.wheel {
+				margin: 0;
+				padding: 0;
+				list-style: none;
+				visibility: hidden;
+				position: relative;
+				display: none;
+				/*border:1px solid #f00;*/
+				background-image: url(/Image/phone/circle.png);
+				background-size:100% ;
+				background-repeat: no-repeat;
+			}
+			
+			.wheel li {
+				overflow: hidden;
+				float: left;
+			}
+			
+			.wheel li a {
+				display: block;
+			}

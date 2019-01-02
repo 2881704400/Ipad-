@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta http-equiv="Expires" content="0">
+        <meta http-equiv="Pragma" content="no-cache">
+        <meta http-equiv="Cache-control" content="no-cache">
+        <meta http-equiv="Cache" content="no-cache">
+        <title>AlarmCenter | 首页</title>
+        <link rel="icon" href="/Image/logo.png" type="image/x-icon">
+        <!--框架样式-->
+        <link rel="stylesheet" href="/Scripts/plug/1.5.0/framework7.min.css">
+        <link rel="stylesheet" href="/Scripts/plug/1.5.0/framework7.ios.colors.min.css">
+        <!--图标字体样式-->
+        <link rel="stylesheet" type="text/css" href="/fonts/iconfont.css" />
+        <link rel="stylesheet" type="text/css" href="/fonts/comIndex/iconfont.css" />
+        <!-- <link rel="stylesheet" type="text/css" href="//at.alicdn.com/t/font_784725_qsp4dbqc0jf.css"> -->
+        <!--声波动画-->
+        <link rel="stylesheet" type="text/css" href="/Styles/Plugin/waveAnimation.css" />
+        <!--本页样式-->
+        <link rel="stylesheet" href="/Styles/Mobile/home.css">
+        <link rel="stylesheet" href="/Styles/Mobile/appStyle.css">
+        <link rel="stylesheet" href="/Styles/Mobile/animate.min.css">
+    </head>
+
+    <body>
+    <div id="app">
+        <!-- 状态栏覆盖为全屏模式 --> 
+        <div class="statusbar"></div>
+        <div class="panel panel-left layout-dark panel-cover" style="background: #273341;">
+            <div class="list">
+                <ul>                                                            
+                    <li class="bottomHeight">
+                        <a href="#" class="item-link item-content" onclick="onAbout()">
+                            <div class="item-content">
+                                <div class="item-media"><i class="iconfont icon-guanyu"></i></div>
+                                <div class="item-inner">
+                                    <div class="item-title">关于</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li class="bottomHeight">
+                        <a href="#" class="item-link item-content" onclick="onUserLogout()">
+                            <div class="item-content">
+                                <div class="item-media"><i class="iconfont icon-logout"></i></div>
+                                <div class="item-inner">
+                                    <div class="item-title">注销</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>
+                    <li id="appCacheClearLi bottomHeight">
+                        <a href="#" class="item-link item-content" onclick="onAppCacheClear()">
+                            <div class="item-content">
+                                <div class="item-media"><i class="iconfont icon-huancun"></i></div>
+                                <div class="item-inner">
+                                    <div class="item-title">清空缓存</div>
+                                </div>
+                            </div>
+                        </a>
+                    </li>  
+                </ul>
+            </div>
+        </div>
+        <!-- 视图 -->
+        <div class="view view-main">
+            <!-- 子界面-->
+            <div data-page="home" class="page" id="home">
+                <!-- 顶部导航条-->
+                <div class="navbar">
+                    <div class="navbar-inner">
+                        <!-- 标题 -->
+                        <div class="left">
+                            <a href="#" class="link icon-only panel-open"><i class="iconfont icon-caidan"></i></a>
+                        </div>
+                        <div class="center sliding title auth_name_get"></div>
+                        <div class="right">
+                            <a href="#" onclick="Ipadvoice()"><img src="/Image/phone/voiceIpad.png" alt="back" style="width: auto;height: 30px;margin-top: 7px;"></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 界面内容 -->
+                <div class="page-content" id="homeContents" >
+                    <div class="foreignExhibitionContainer">
+                        <ul class="row homeExhibition" style=" padding: 5%;">
+                                                                                                                                                                                                     
+                        </ul>
+                        <div class="explainControl" style="display: none;">
+                            <a href="#" class="controlIconBtn6">开始讲解</a>
+                            <a href="#" class="explainControl1">停止讲解</a>
+                            <a href="#" class="explainControl2">暂停讲解</a>
+                            <a href="#" class="explainControl3">继续讲解</a>
+                        </div>
+                       <span class="tooipSpan displayNone viceSpan" style="top: 10px;">正在执行，请稍后...</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 底部工具栏-->
+            <div class="toolbar tabbar tabbar-labels">
+                <div class="toolbar-inner disabled bottomMenu ">
+                    <a href="/home/" class="link no-animation active" id="homeTool">
+                       <img src="/image/toolbar/toolMenu10.png" alt="" />
+                    </a>
+                    <a href="/controlCame/" class="link no-animation" id="controlCameTool">
+                        <img src="/image/toolbar/toolMenu20.png" alt="" />
+                    </a>
+                    <a href="/controlEquip/" class="link no-animation" id="controlEquipTool">
+                        <img src="/image/toolbar/toolMenu30.png" alt="" />
+                    </a>
+                     <a href="/controlWel/" class="link no-animation" id="controlWelTool">
+                        <img src="/image/toolbar/toolMenu40.png" alt="" />
+                    </a>                   
+                    <audio src="/Data/1248.wav" style="display: none;" id="audio"></audio>
+                </div>
+            </div>
+            <!-- 语音 -->
+            <div id="footer" class="">
+                <div class="footerVoice">
+                    <div style="text-align: right;">
+                        <a href="#" class="exitVoice"><img src="/Image/phone/exitVoice.png"></a>
+                    </div>
+                    <div class="voiceDivs flexBoxs">
+                        <div class="">
+                            <div id="voiceMessage" class="voiceTitle">按住说话</div>
+                            <div id="waveAnim" class="waveAnim" style="display: none"><i></i><i></i><i></i><i></i><i></i></div>
+                            <div class="voice" id="voiceBtn"><img src="/Image/phone/voice.png" ondragstart="return false;"></div>
+                            <div class="voicetest"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- 框架js-->
+        <script src="/Scripts/plug/jquery-3.3.1.min.js"></script>
+        <script type="text/javascript" src="/Scripts/plug/1.5.0/framework7.js"></script>
+        <script type="text/javascript" src="/Scripts/plug/swiper.min.js"></script>
+        <!-- 首页js-->
+        <script src="/Scripts/plug/jq.ajax.js"></script>
+        <script type="text/javascript" src="/Scripts/mobile/Config.js"></script>
+        <script type="text/javascript" src="/Scripts/mobile/homeIpad.js"></script>
+        <!-- 移动端入口js-->
+        <script type="text/javascript" src="/Scripts/mobile/mobileAll.js"></script>
+        <!-- 插件-->
+        <script type="text/javascript" src="/Scripts/mobile/plugin/appPopup.js"></script>
+        <!-- js加载 -->
+        <script type="text/javascript" src="/Scripts/mobile/PageJs.js"></script>
+    </body>
+
+</html>

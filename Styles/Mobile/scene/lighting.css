@@ -1,0 +1,468 @@
+.mainDivLight {
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#contentDivPeriLight {
+	width: 100%;
+	height: 64%;
+	margin: 0 auto;
+	animation: lightingperi 1s 1s;
+}
+
+#contentDivPeriLightIpad {
+	width: 100%;
+	height: 64%;
+	margin: 0 auto;
+	animation: lightingperiIpad 1s 1s;
+}
+
+.contentDivPeriLightOpen {
+	background-image: url(/Image/scene/light/peri_open.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.contentDivPeriLightClose {
+	background-image: url(/Image/scene/light/peri_close.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.contentDivPeriLightOpenIpad {
+	background-image: url(/Image/scene/light/peri_open_ipad.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.contentDivPeriLightCloseIpad {
+	background-image: url(/Image/scene/light/peri_close_ipad.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#contentDivEncloLight {
+	width: 76%;
+	height: 76%;
+	position: relative;
+	top: 12%;
+	left: 12%;
+	animation: lightingenclo 2s 0.5s;
+}
+
+#contentDivEncloLightIpad {
+	width: 76%;
+	height: 76%;
+	position: relative;
+	top: 12%;
+	left: 12%;
+	animation: lightingencloIpad 2s 0.5s;
+}
+
+.contentDivEncloLightOpen {
+	background-image: url(/Image/scene/light/enclo_open.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.contentDivEncloLightClose {
+	background-image: url(/Image/scene/light/enclo_close.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.contentDivEncloLightOpenIpad {
+	background-image: url(/Image/scene/light/enclo_open_ipad.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.contentDivEncloLightCloseIpad {
+	background-image: url(/Image/scene/light/enclo_close_ipad.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#contentDivCoreLight {
+	width: 60%;
+	height: 60%;
+	position: relative;
+	top: 20%;
+	left: 20%;
+	animation: lightingcore 3s;
+}
+
+#contentDivCoreLightIpad {
+	width: 60%;
+	height: 60%;
+	position: relative;
+	top: 20%;
+	left: 20%;
+	animation: lightingcoreIpad 3s;
+}
+
+.contentDivCoreLightOpen {
+	background-image: url(/Image/scene/light/core_open.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.contentDivCoreLightClose {
+	background-image: url(/Image/scene/light/core_close.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.contentDivCoreLightOpenIpad {
+	background-image: url(/Image/scene/light/core_open_ipad.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.contentDivCoreLightCloseIpad {
+	background-image: url(/Image/scene/light/core_close_ipad.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.footerDivLight {
+	width: 100%;
+	height: 25%;
+	margin: 0 auto;
+	position: relative;
+    top: 10%;
+	/*animation: rollIn 2s ;*/
+}
+
+.footerDivLightLeft {
+	width: 30%;
+	height: 100%;
+
+}
+
+.footerDivLightCenter {
+	width: 30%;
+	height: 100%;
+
+}
+
+.footerDivLightRight {
+	width: 30%;
+	height: 100%;
+	
+}
+
+#footerDivLightLeftPic,#footerDivLightCenterPic,#footerDivLightRightPic,.lightingControl {
+	width: 85%;
+	height: 48%;
+	margin: 0 auto;
+}
+
+.footerDivLightLeftPicOpen {
+	background-image: url(/Image/scene/light/btn_open.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.footerDivLightLeftPicClose {
+	background-image: url(/Image/scene/light/btn_close.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+#footerDivLightLeftPicBtn,
+#footerDivLightCenterPicBtn,
+#footerDivLightRightPicBtn {
+	width: 100%;
+	height: 70%;
+	margin: 0 auto;
+	position: relative;
+	top: 30%;
+	/*margin-top: 30%;*/
+	/*border: 1px solid #00f;*/
+}
+
+.footerDivLightCenterPicOpen {
+	background-image: url(/Image/scene/light/btn_open.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.footerDivLightCenterPicClose {
+	background-image: url(/Image/scene/light/btn_close.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.footerDivLightRightPicOpen {
+	background-image: url(/Image/scene/light/btn_open.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.footerDivLightRightPicClose {
+	background-image: url(/Image/scene/light/btn_close.png);
+	background-position: 0% 0%;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+
+.footerDivLightLeftLabel {
+	width: 100%;
+	height: 30%;
+	text-align: center;
+	/*border:  1px solid #F22434;*/
+}
+
+.footerDivLightLeftLabel label {
+	font-family: PingFang Light;
+	color: #33CABD;
+	font-size: 1rem;
+}
+
+.footerDivLightLeftLabelIcon {
+	width: 100%;
+	height: 30%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.footerDivLightLeftLabelIcon label {
+	color: #33CABD;
+	font-size: 1.4rem;
+}
+
+@-webkit-keyframes lightingperi {
+	from {
+		background: url(/Image/scene/light/peri_close.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	to {
+		background: url(/Image/scene/light/peri_open.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+
+@keyframes lightingperi {
+	from {
+		background: url(/Image/scene/light/peri_close.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	to {
+		background: url(/Image/scene/light/peri_open.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+.lightingperi {
+	-webkit-animation-name: lightingperi;
+	animation-name: lightingperi;
+}
+
+@-webkit-keyframes lightingenclo {
+	from {
+		background: url(/Image/scene/light/enclo_close.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	to {
+		background: url(/Image/scene/light/enclo_open.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+
+@keyframes lightingenclo {
+	from {
+		background: url(/Image/scene/light/enclo_close.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	to {
+		background: url(/Image/scene/light/enclo_open.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+.lightingenclo {
+	-webkit-animation-name: lightingenclo;
+	animation-name: lightingenclo
+}
+
+@-webkit-keyframes lightingcore {
+	from {
+		background: url(/Image/scene/light/core_close.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	to {
+		background: url(/Image/scene/light/core_open.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+
+@keyframes lightingcore {
+	from {
+		background: url(/Image/scene/light/core_close.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	to {
+		background: url(/Image/scene/light/core_open.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+.lightingcore {
+	-webkit-animation-name: lightingcore;
+	animation-name: lightingcore
+}
+
+
+@-webkit-keyframes lightingperiIpad {
+	from {
+		background: url(/Image/scene/light/peri_close_ipad.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	to {
+		background: url(/Image/scene/light/peri_open_ipad.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+
+@keyframes lightingperiIpad {
+	from {
+		background: url(/Image/scene/light/peri_close_ipad.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	to {
+		background: url(/Image/scene/light/peri_open_ipad.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+.lightingperiIpad {
+	-webkit-animation-name: lightingperiIpad;
+	animation-name: lightingperiIpad;
+}
+
+@-webkit-keyframes lightingenclo {
+	from {
+		background: url(/Image/scene/light/enclo_close_ipad.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	to {
+		background: url(/Image/scene/light/enclo_open_ipad.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+
+@keyframes lightingencloIpad {
+	from {
+		background: url(/Image/scene/light/enclo_close_ipad.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	to {
+		background: url(/Image/scene/light/enclo_open_ipad.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+.lightingencloIpadIpad {
+	-webkit-animation-name: lightingencloIpad;
+	animation-name: lightingencloIpad
+}
+
+@-webkit-keyframes lightingcoreIpad {
+	from {
+		background: url(/Image/scene/light/core_close_ipad.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	to {
+		background: url(/Image/scene/light/core_open_ipad.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+
+@keyframes lightingcoreIpad {
+	from {
+		background: url(/Image/scene/light/core_close_ipad.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+	to {
+		background: url(/Image/scene/light/core_open_ipad.png);
+		background-position: 0% 0%;
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+	}
+}
+
+.lightingcoreIpad {
+	-webkit-animation-name: lightingcoreIpad;
+	animation-name: lightingcoreIpad;
+}
